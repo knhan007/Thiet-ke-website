@@ -1,3 +1,6 @@
+.header {
+    background-color: #f0f0f0;
+}
 tr.header {
     color: blue;
     font-size: 25px;
@@ -20,4 +23,9 @@ tr.row3 {
 }
 table {
     margin: 0 auto;
+}
+th:hover, td:hover {
+    background-color: #ffd700; 
+    cursor: pointer;           
+    transition: 0.3s;          
 }
